@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mohamedabdi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./app.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto p-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">MohamedAbdi</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-blue-500">About</a></li>
+                    <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto p-6 my-12">
+        <div class="flex flex-col md:flex-row items-center">
+            <img src="./mohamedabdiahmed.png" alt="Your Photo" class="w-48 h-48 rounded-full mb-6 md:mb-0 md:mr-6">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">About Me</h2>
+                <p class="text-lg leading-relaxed">Hello! I'm [Mohamedabdi], a passionate web developer with a love for creating beautiful and functional websites. I specialize in <span class="bg-indigo-800 text-white p-1 rounded-md">.NET Core</span> and have experience with various modern technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-white py-12">
+        <div class="container mx-auto p-6">
+            <h2 class="text-2xl font-bold mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Hotel Management System</h3>
+                    <p class="text-gray-700 mb-4">We created a comprehensive hotel system that addressed all the necessary services for the hotel. Additionally, it resolved the issues related to managing accounts and monitoring the hotel's operations.</p>
+                    <a href="#" class="text-blue-500 hover:underline bg-indigo-100 px-2 rounded-lg">under process and will be settled shortly</a>
+                    <div class="techs flex gap-2 text-[14px] my-2">
+                        <div class="tech bg-indigo-700 text-white px-2 rounded-lg">ASP.NET core 8+</div>
+                        <div class="tech bg-gray-600 text-white px-2 rounded-lg">PostgreSQL</div>
+                        <div class="tech bg-blue-500 text-white px-2 rounded-lg">React.TS</div>
+
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">QURAN MEMORIZATION MANAGEMENT SYSTEM</h3>
+                    <p class="text-gray-700 mb-4">This system has been developed for Madarasatu Al-Furqaan Slamic to support School’s daily operations including student record management. The system will automate School daily tasks; instead some tasks were being done by manually. The main objective of Registration System is to control both students’ fee and Exam record.</p>
+                    <a href="#" class="text-blue-500 hover:underline bg-indigo-100 px-2 rounded-lg">under process and will be settled shortly</a>
+                    <div class="techs flex gap-2 text-[14px] my-2">
+                        <div class="tech bg-green-600 text-white px-2 rounded-lg">NodeJs</div>
+                        <div class="tech bg-gray-600 text-white px-2 rounded-lg">PostgreSQL</div>
+                        <div class="tech bg-blue-500 text-white px-2 rounded-lg">React.JS</div>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto p-6 my-12">
+        <h2 class="text-2xl font-bold mb-6">Contact Me</h2>
+        <form class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="mb-4">
+                <label for="name" class="block text-lg font-medium mb-2">Name</label>
+                <input type="text" id="name" class="w-full border border-gray-300 p-2 rounded-lg" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-lg font-medium mb-2">Email</label>
+                <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded-lg" required>
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-lg font-medium mb-2">Message</label>
+                <textarea id="message" class="w-full border border-gray-300 p-2 rounded-lg" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 mohamedAbdi. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
